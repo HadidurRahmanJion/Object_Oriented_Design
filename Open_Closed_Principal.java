@@ -1,8 +1,6 @@
 //****************************************************************************
 // Title : Illustrating the Open/Closed Principle (OCP)
-// Author: Hadidur Rahman Jion
-//         Undergraduate Student
-//         Khulna University
+// Author: Hadidur Rahman Jion,Undergraduate Student,Khulna University
 //****************************************************************************
 
 /**
@@ -21,7 +19,7 @@ interface GeometricShape {
 /**
  * Represents a rectangular geometric shape.
  */
-class RectangleShape implements GeometricShape {
+class Rectangle implements GeometricShape {
     private double width;
     private double height;
 
@@ -31,7 +29,7 @@ class RectangleShape implements GeometricShape {
      * @param width  The width of the rectangle.
      * @param height The height of the rectangle.
      */
-    public RectangleShape(double width, double height) {
+    public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
     }
@@ -45,7 +43,7 @@ class RectangleShape implements GeometricShape {
 /**
  * Represents a circular geometric shape.
  */
-class CircleShape implements GeometricShape {
+class Circle implements GeometricShape {
     private double radius;
 
     /**
@@ -53,7 +51,7 @@ class CircleShape implements GeometricShape {
      *
      * @param radius The radius of the circle.
      */
-    public CircleShape(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
@@ -88,7 +86,7 @@ class GeometricAreaCalculator {
 class OCPExample {
     public static void main(String[] args) {
         GeometricShape[] shapes = {
-                new RectangleShape(5, 4),
+                new Rectangle(5, 4),
                 new CircleShape(3)
         };
 
