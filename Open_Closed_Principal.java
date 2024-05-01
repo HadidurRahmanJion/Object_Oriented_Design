@@ -1,7 +1,7 @@
 //****************************************************************************
 // Title : Illustrating the Open/Closed Principle (OCP)
 // Author: Hadidur Rahman Jion
-//         Undergraduate Scholar
+//         Undergraduate Student
 //         Khulna University
 //****************************************************************************
 
